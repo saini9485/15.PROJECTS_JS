@@ -1,36 +1,48 @@
 .container {
-    max-width: 400px;
-    background-color: wheat;
-  }
-  
-  .display {
-    height: 70px;
-    line-height: 1.5;
-    font-size: 32px;
-    font-weight: bold;
-    text-align: right;
-    padding: 20px 10px 10px 10px;
-    background-color: #444;
-    color: white;
-  }
-  
-  .buttons {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    border-bottom: 2px solid rgb(222, 4, 237);
-    border-top: 2px solid rgb(41, 8, 204);
-  }
-  
-  .btn {
-    border-radius: 50% 2px solid rgb(6, 222, 136);
-    text-align: center;
-    line-height: 2.5;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 24px
-  }
-  
-  .btn:hover {
-    background-color: #444;
-    color: rgb(242, 163, 16);
-  }
+  max-width: 400px;
+  background-color: rgb(163, 20, 230);
+}
+
+.display {
+  height: 70px;
+  line-height: 1.5;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: right;
+  padding: 20px 10px 10px 10px;
+  background-color: black;
+  color: rgb(13, 200, 237);
+  border-top:2px solid rgb(8, 243, 74); ;
+  border-left:2px solid rgb(8, 243, 74); ;
+  border-right:2px solid rgb(8, 243, 74); ;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  border-bottom: 2px solid rgb(8, 243, 74);
+  border-top: 2px solid rgb(5, 239, 29);
+  border-left: 2px solid rgb(5, 239, 29);
+  border-right: 2px solid rgb(5, 239, 29);
+}
+
+.btn {
+  border: 2px solid rgb(93, 6, 232);
+  text-align: center;
+  line-height: 2;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 24px;
+  border-radius: 50%;
+  margin: 4px;
+}
+
+.btn:hover {
+  background-color: #444;
+  color: wheat;
+}
+h1{
+  text-align: center;
+  background-color: blue;
+  border-radius: 20%;
+}
