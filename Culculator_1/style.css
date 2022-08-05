@@ -1,6 +1,6 @@
 .container {
   max-width: 400px;
-  background-color: rgb(13, 187, 240);
+  background-color: rgb(62, 207, 202);
 }
 
 .display {
@@ -38,7 +38,8 @@
   border-radius: 50%;
   margin: 4px;
   /* text-shadow: 10px red; */
-  box-shadow:   2px 2px  #01f622;
+  box-shadow:   2px 2px  #faa805;
+
 }
 
 .btn:hover {
