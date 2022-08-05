@@ -1,9 +1,10 @@
 .container {
   max-width: 400px;
-  background-color: rgb(163, 20, 230);
+  background-color: rgb(13, 187, 240);
 }
 
 .display {
+
   height: 70px;
   line-height: 1.5;
   font-size: 32px;
@@ -14,8 +15,9 @@
   color: rgb(13, 200, 237);
   border-top:2px solid rgb(8, 243, 74); ;
   border-left:2px solid rgb(8, 243, 74); ;
-  border-right:2px solid rgb(8, 243, 74); ;
+ border-right:2px solid rgb(8, 243, 74); ;
 }
+
 
 .buttons {
   display: grid;
@@ -35,10 +37,12 @@
   font-size: 24px;
   border-radius: 50%;
   margin: 4px;
+  /* text-shadow: 10px red; */
+  box-shadow:   2px 2px  #01f622;
 }
 
 .btn:hover {
-  background-color: #444;
+  background-color: rgb(15, 237, 8);
   color: wheat;
 }
 h1{
