@@ -22,7 +22,14 @@ buttons.map((btn) => {
       display.innerText += 3.14;
     } else if (key == "√") {
       display.innerText = Math.sqrt(display.innerText);
-    // } else if (key == "X!") {
+    } else if (key == "X!") {
+     let i = display.innerText
+     let fact= 1
+     while (i>0){
+    fact = fact*i
+    i--
+     }
+     display.innerText= fact
     } else if (key == "x2") {
       display.innerText = display.innerText ** 2;
     // } else if (key == "log") {
