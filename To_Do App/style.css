@@ -1,8 +1,8 @@
 :root {
 	--dark: #374151;
-	--darker: #1F2937;
-	--darkest: #111827;
-	--grey: #6B7280;
+	--darker: #8ca2c2;
+	--darkest: #707e9b;
+	--grey: #f7f9fd;
 	--pink: #EC4899;
 	--purple: #8B5CF6;
 	--light: #EEE;
@@ -34,6 +34,7 @@ header h1{
 	font-weight: 300;
 	color: black;
 	margin-bottom: 1rem;
+    justify-content: center;
 }
 
 #task {
@@ -62,14 +63,13 @@ input, button {
 }
 
 #new-task-submit {
-	color: var(--pink);
 	font-size: 1.25rem;
 	font-weight: 700;
-	background-image: linear-gradient(to right, var(--pink), var(--purple));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 	cursor: pointer;
 	transition: 0.4s;
+    background-color: blue;
+    border-radius: 30%;
+    color: #EEE;
 }
 
 #new-task-submit:hover {
@@ -93,8 +93,8 @@ main {
 
 .task-list h2 {
 	font-size: 1.5rem;
-	font-weight: 300;
-	color: rgb(10, 235, 168);
+	font-weight: bold;
+	color:aqua;
 	margin-bottom: 1rem;
 }
 
@@ -146,11 +146,15 @@ main {
 }
 
 .task .actions .edit {
-	background-image: linear-gradient(to right, var(--pink), var(--purple));
+	/* background-image: linear-gradient(to right, var(--pink), var(--purple));
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: transparent; */
+    color: blue;
 }
 
 .task .actions .delete {
 	color: crimson;
+}
+h3{
+    color: rgb(10, 173, 243);
 }
