@@ -1,32 +1,18 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="en">
 <head>
-<style>
-button { padding:10px; margin:60px; background-color:orange; }
-</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bulb</title>
+    <link rel="stylesheet" href="style.css"
 </head>
-<script>
-function light(value)
-	{
-	var pic;
-		if(value == 0) 
-		{
-			pic="light off.jpeg";
-		}
-		else
-		{
-			pic="light on.jpeg";
-		}
-		document.getElementById('bulb').src=pic;
-	}
-</script>
+<body>
+    <img id="bulb" src="of.png">
 
-
-<img id="bulb" src="of.png">
-
-<br>
-<button onclick="light(1)">Turn ON</button>
-<button onclick="light(0)">Turn OF</button>
+    <br>
+    <button onclick="light(1)">Turn ON</button>
+    <button onclick="light(0)">Turn OF</button>
 </body>
+<script src ="index.js"></script>
 </html>
