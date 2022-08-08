@@ -1,5 +1,16 @@
-button { padding:10px; margin:60px; background-color:orange; }
-#bulb{
-    height: 500px;
-    width: 500px;
+button {
+  padding: 10px;
+  margin: 60px;
+  background-color: orange;
+  border: 2px solid blue;
+}
+#bulb {
+  height: 500px;
+  width: 500px;
+  /* position: fixed; */
+  background-color: black;
+
+}
+button:hover{
+background-color: blue;
 }
