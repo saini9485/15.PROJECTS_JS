@@ -8,7 +8,7 @@ const getColor = () => {
   const randomCode = "#" + randomNumber.toString(16);
   //console.log(randomNumber,randomCode)
   //color will show on display otherwise it will print in console
-  document.body.style.backgroundColor = randomCode;
+  document.body.style.backgroundColor = randomCode; 
   //for genrates random Hex Code
   color_code.innerText = randomCode;
   // for automatic copy the value
