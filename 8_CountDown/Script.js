@@ -1,16 +1,11 @@
-// const endDate = "27 July 2022 08:20:00 PM"
 const endDate = "17 August 2022 11:58:00 PM"
 
 document.getElementById("end-date").innerText = endDate;
 const inputs = document.querySelectorAll("input")
-    // const clock = () => {
-
-// }
-
 function clock() {
     const end = new Date(endDate)
     const now = new Date()
-    const diff = (end - now) / 1000;
+    const diff = (end - now) / 1000; // millisecond to second change 
 
     if (diff < 0) return;
 
@@ -23,13 +18,6 @@ function clock() {
 
 // initial call
 clock()
-
-/**
- *  1 day = 24 hrs
- *  1 hr = 60 mins
- *  60 min = 3600 sec
- */
-
 setInterval(
     () => {
         clock()
