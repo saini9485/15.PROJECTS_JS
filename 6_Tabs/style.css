@@ -1,0 +1,31 @@
+* {box-sizing: border-box}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+.press {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+.press:hover {
+  background-color: #777;
+}
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: rgb(21, 0, 255);}
+#Services {background-color: rgb(13, 247, 239);}
+#Contact {background-color: rgb(178, 35, 166);}
+#About {background-color: rgb(0, 255, 30);}
