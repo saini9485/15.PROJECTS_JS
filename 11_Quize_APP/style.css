@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(24, 128, 207);
+    background-color: rgb(16, 238, 83);
 }
 
 .container {
@@ -45,7 +45,7 @@
 }
 
 #submit:hover {
-    background-color: rgb(34, 6, 53);
+    background-color: rgb(10, 30, 243);
 }
 
 .box {
