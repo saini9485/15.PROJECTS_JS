@@ -1,0 +1,37 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 90%;
+    min-height: 90%;
+  }
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  .inputArea{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f37b0b;
+    padding: 20px;
+    
+  }
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: rgb(5, 248, 66);
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: rgb(8, 35, 245);
+    color: black;
+    transition: .5s;
+  }
