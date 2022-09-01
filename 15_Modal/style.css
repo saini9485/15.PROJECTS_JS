@@ -1,0 +1,97 @@
+.hero {
+    min-height: 100vh;
+    background-image: url("IMG_20211207_173011.jpg");
+    background-position: center;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    color: rgb(223, 0, 0);
+}
+
+.banner {
+    background: transparent;
+    padding: 4rem 0;
+    text-align: center;
+    width: 90vw;
+}
+
+.modal-btn {
+    margin-top: 10px;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px white;
+    transition: transform 2s;
+}
+p{
+    overflow: "scroll";
+}
+.content{
+    overflow: scroll;
+}
+.modal-btn:hover {
+    background: transparent;
+    
+    background: rgb(26, 255, 0);
+    color: azure;
+    transform: scale(1);
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    background: rgba(73, 166, 233, 0.5);
+    display: grid;
+    place-items: center;
+    visibility: hidden;
+    z-index: -10;
+}
+
+
+/* OPEN/CLOSE MODAL */
+.open-modal {
+    visibility: visible;
+    z-index: 10;
+    transition: transform 2s;
+}
+/* .open-modal:hover{
+    transform: scale(2);
+} */
+    
+
+.modal-container {
+    background: rgb(251, 9, 247);
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    transition: transform 2s;
+}
+.img:hover{
+    transform: scale(2);
+}
+.close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: red;
+    transform: scale(1);
+}
